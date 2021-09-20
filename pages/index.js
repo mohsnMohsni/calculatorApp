@@ -1,13 +1,13 @@
-import Head from "next/head";
+import CircleButton from "@components/CircleButton";
+import Nav from "@components/Nav";
+import Keyboards from "@components/Keyboards"
 
-export default function Home() {
+export default function Index(props) {
   return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      Hello
+    <div className={"flex flex-col justify-between h-screen pb-5"}>
+      <Nav />
+      <div></div>
+      <Keyboards />
     </div>
   );
 }
