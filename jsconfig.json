@@ -4,7 +4,7 @@
     "paths": {
       "@components/*": ["components/*"],
       "@styles/*": ["styles/*"],
-      "@reduxStore": ["redux/store.js"],
+      "@reduxStore": ["reduxApp/store.js"],
       "@lib/*": ["lib/*"]
     }
   }

@@ -1,6 +1,6 @@
 import "@styles/globals.css";
 import "tailwindcss/tailwind.css";
-import store from "@reduxStore";
+import store from "reduxApp/store";
 import { Provider } from "react-redux";
 
 export default function CaculatorApp({ Component, pageProps }) {
