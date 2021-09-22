@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
@@ -12,23 +12,38 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<br />
+<h1>Calculator react app that develped via:</h1>
+<ul>
+    <li style="font-size: 140%;">Nextjs</li>
+    <li style="font-size: 140%;">Redux / Redux toolkit</li>
+    <li style="font-size: 140%;">Tailwind css</li>
+    <li style="font-size: 140%;">Docker / Docker compose</li>
+</ul>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<br />
+<div style="display: flex; justify-content: center;">
+    <img src="./public/preview1.png" alt="preview1" style="width: 90%; height: auto;">
+</div>
+<br />
+<br />
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Going to production
 
-## Learn More
+Run the production server:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+docker-compose up
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open [http://localhost:5060](http://localhost:5060) with your browser to see the result.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br />
+<div style="display: flex; justify-content: center;">
+    <img src="./public/preview2.png" alt="preview2" style="width: 90%; height: auto;">
+</div>
+<br />
+<br />
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div style="color: gray;">- ui/ux idea from social media <a href="https://devdojo.com/suhailkakar/10-projects-you-can-do-to-become-a-frontend-master" style="text-direction: none">devdojo.com</a></div>
+<div style="color: gray;">- MIT LICENSE</div>
