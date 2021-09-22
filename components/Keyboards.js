@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import CircleButton from "@components/CircleButton";
 import BackspaceOutlinedIcon from "@material-ui/icons/BackspaceOutlined";
-import { addValue, allClean, removeValueByBackspace, percentage, division, multiplication, detract, sum, getResult } from "reduxApp/reducers/calculateSlice";
+import { addValue, allClean, removeValueByBackspace, percentage, division, multiplication, detract, sum, getResult } from "@reduxApp/reducers/calculateSlice";
 
 export default function Keyboards() {
   const dispatch = useDispatch();

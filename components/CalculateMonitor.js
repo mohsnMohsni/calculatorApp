@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { selectInputValue, selectResult } from "reduxApp/reducers/calculateSlice";
+import { selectInputValue, selectResult } from "@reduxApp/reducers/calculateSlice";
 
 export default function CalculateMonitor() {
   const inputValue = useSelector(selectInputValue);
