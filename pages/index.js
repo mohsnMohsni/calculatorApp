@@ -9,7 +9,7 @@ export default function Index(props) {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <div className={"flex flex-col justify-between h-screen pb-5 dark:bg-gray-800"}>
+      <div className={"flex flex-col justify-between h-screen pb-5 shadow-xl bg-white dark:bg-gray-800"}>
         <Nav />
         <CalculateMonitor />
         <Keyboards />
